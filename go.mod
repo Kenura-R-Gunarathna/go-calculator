@@ -1,4 +1,4 @@
-module krag.lk/calculator
+module github.com/Kenura-R-Gunarathna/go-calculator
 
 go 1.22.1
 

@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/fatih/color"
-	"krag.lk/calculator/area"
+	"github.com/Kenura-R-Gunarathna/go-calculator/area"
 )
 
 func main() {
