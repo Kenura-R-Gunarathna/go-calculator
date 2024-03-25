@@ -38,7 +38,7 @@ func main() {
     case 4: // Parallelogram
       fmt.Println("Area is: ", calParallelogramArea())
     case 5: // Trapizium
-      fmt.Println("Area is: ", calTrapiziumArea())
+      fmt.Println("Area is: ", calTrapeziumArea())
     default:
         fmt.Println("Invalid value.")
     }
@@ -68,7 +68,7 @@ func calTriangleArea() float64 {
   fmt.Print("Enter the base length: ")
   fmt.Scanln(&baseLength)
   
-  area = perpendicularHeight * baseLength
+  area = perpendicularHeight * baseLength / 2
   return area
 }
 
@@ -98,7 +98,7 @@ func calParallelogramArea() float64 {
   return area
 }
 
-func calTrapiziumArea() float64 {
+func calTrapeziumArea() float64 {
   var perpendicularHeight, baseLength_1, baseLength_2, area float64
 
   fmt.Println("- Parallelogram")
