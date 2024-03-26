@@ -2,6 +2,8 @@
 
 This is a simple command-line calculator written in Go. It supports various geometric shapes and calculates their areas based on user input.
 
+<img src="./screenshot.png" height="400px">
+
 ## Features
 
 - Calculate the area of a circle
