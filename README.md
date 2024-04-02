@@ -2,6 +2,8 @@
 
 This is a simple command-line calculator written in Go. It supports various geometric shapes and calculates their areas based on user input.
 
+This is the cli version of [same gui calculator](https://github.com/Kenura-R-Gunarathna/go-gui-calculator.git)
+
 <img src="./screenshot.png" height="400px">
 
 ## Features
@@ -37,6 +39,16 @@ This is a simple command-line calculator written in Go. It supports various geom
    ```
 
 4. Follow the on-screen instructions to perform calculations.
+
+## Build
+
+You can obtain the compile version of the app also using the command.
+
+```bash
+go build .
+```
+
+This is the compile app for Linux : [Download Now](./bin/go-calculator).
 
 ## Contributing
 
