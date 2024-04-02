@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/fatih/color"
 	"github.com/Kenura-R-Gunarathna/go-calculator/area"
+	"github.com/fatih/color"
 )
 
 func main() {

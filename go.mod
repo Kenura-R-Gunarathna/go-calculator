@@ -1,6 +1,6 @@
 module github.com/Kenura-R-Gunarathna/go-calculator
 
-go 1.22.1
+go 1.23
 
 require (
 	github.com/fatih/color v1.16.0 // indirect

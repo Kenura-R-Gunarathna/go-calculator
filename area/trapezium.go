@@ -7,7 +7,7 @@ import (
 func CalculateTrapeziumArea() float64 {
   var perpendicularHeight, baseLength_1, baseLength_2, area float64
 
-  fmt.Println("- Parallelogram")
+  fmt.Println("- Trapezium")
   fmt.Print("Enter the perpendicular height: ")
   fmt.Scanln(&perpendicularHeight)
   fmt.Print("Enter the base length 1: ")
